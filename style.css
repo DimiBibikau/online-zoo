@@ -38,6 +38,7 @@ html {
     border: none;
     background-color:#F9804B;
     color: white;
+    cursor: pointer;
 }
 
 .button__centered {
@@ -120,6 +121,16 @@ html {
 
 .navigation__item {
     padding-left: 58px;
+    /* transition: color .3s; */
+}
+
+.navigation__item a {
+    color: white;
+    transition: color 0.5s;
+}
+
+.navigation__item a:hover {
+    color: #F9804B;
 }
 
 .navigation__item_active {
@@ -508,6 +519,13 @@ html {
 .socials__company__logo {
     padding-right: 12px;
     padding-bottom: 10px;
+}
+
+.subscription-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
 }
 
 .input__heading {

@@ -24,25 +24,32 @@ html {
 }
 
 .button__round {
+    position: absolut;
     height: 54px;
     width: 54px;
     border-radius: 54px;
     border: none;
     background-color:#F9804B;
     color: white;
-    display: none;
 }
 
 .button__centered {
-    margin: 0;
+    position: absolute;
+    left: 720px;
 }
 .button__left {
+    position: absolute;
+    left: 180px;
+    top: 2012px;
     background-image: url("./storage/icons/left_arrow.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .button__right {
+    position: absolute;
+    right: 645px;
+    top: 2012px;
     background-image: url("./storage/icons/right_arrow.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;

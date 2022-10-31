@@ -23,6 +23,12 @@ html {
     border-radius: 5px;
 }
 
+.button__donate {
+    width: 298px;
+    margin-top: 68px;
+    margin-bottom: 44px;
+}
+
 .button__round {
     position: absolut;
     height: 54px;
@@ -461,6 +467,7 @@ html {
     justify-content: space-between;
     padding-top: 41px;
     max-width: 1160px;
+    height: 353px;
 }
 
 .side-column {

@@ -6,6 +6,10 @@ html {
     color: #333B41;
 }
 
+.petstory {
+    color: black;
+}
+
 .button {
     background-color: #F9804B;
     height: 54px;
@@ -314,18 +318,19 @@ html {
     border-radius: 20px;
     height: 835px;
     border: 1px solid #F9804B;
+    background-color: rgba(253, 253, 255, 0.52);
 }
 
 .pick-a-friend__card__contents {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(./storage/pictures/frosted.png);
-    background-repeat: repeat;
+    z-index: 100;
 }
 
 .pick-a-friend__card__contents__description {
     padding-left: 100px;
+    z-index: 100;
 }
 
 .pick-a-friend__heading {
@@ -333,6 +338,7 @@ html {
     font-size: 48px;
     color: #F9804B;
     margin-top: 40px;
+    z-index: 100;
 }
 
 .pick-a-friend__tagline {

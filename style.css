@@ -23,6 +23,12 @@ html {
     border-radius: 5px;
 }
 
+.button__donate {
+    width: 298px;
+    margin-top: 68px;
+    margin-bottom: 44px;
+}
+
 .button__round {
     position: absolut;
     height: 54px;
@@ -217,6 +223,9 @@ html {
 }
 
 .wilderness-backstage__content__header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 87px;
     max-width: 465px;
 }
@@ -231,10 +240,12 @@ html {
     font-size: 24px;
     line-height: 120%;
     font-weight: 400;
+    margin-top: 30px;
 }
 
 .wilderness_backstage__content__header {
     display: flex;
+    margin-top: 30px;
 }
 
 .wilderness_backstage__content__envelope {
@@ -456,6 +467,7 @@ html {
     justify-content: space-between;
     padding-top: 41px;
     max-width: 1160px;
+    height: 353px;
 }
 
 .side-column {

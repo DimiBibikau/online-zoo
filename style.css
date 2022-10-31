@@ -13,6 +13,7 @@ html {
     color: white;
     border: 0;
     margin-top: 60px;
+    cursor: pointer;
 }
 
 .button__rounded {
@@ -30,7 +31,7 @@ html {
 }
 
 .button__round {
-    position: absolut;
+    position: absolute;
     height: 54px;
     width: 54px;
     border-radius: 54px;
@@ -43,6 +44,11 @@ html {
     position: absolute;
     left: 720px;
 }
+
+.button__watch {
+    margin-top: 76px;
+    align-self: center;
+}
 .button__left {
     position: absolute;
     left: 180px;
@@ -54,7 +60,7 @@ html {
 
 .button__right {
     position: absolute;
-    right: 645px;
+    right: 110px;
     top: 2012px;
     background-image: url("./storage/icons/right_arrow.png");
     background-repeat: no-repeat;
@@ -69,6 +75,7 @@ html {
     background-color: white;
     margin-left: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .input__subscribe {
@@ -86,13 +93,12 @@ html {
 }
 
 .wrapper {
-    width: 1600px;
+    width: 1160px;
     margin: 0 auto;
-    padding: 0 220px;
+    /* padding: 0 220px; */
 }
 
 .header {
-    max-width: 1600px;
     background-color: black;
 }
 
@@ -127,11 +133,9 @@ html {
 }
 
 .main {
-    max-width: 1600px;
 }
 
 .intro {
-    max-width: 1600px;
     background-image: url('./storage/pictures/Giant_Panda.png');
     background-repeat: no-repeat;
 }
@@ -150,7 +154,7 @@ html {
 .flower_foto {
     position: absolute;
     top: 880px;
-    right: 445px;
+    right: -84px;
     width: 293px;
     height: 605px;
     background-image: url(./storage/pictures/flower_foto.png);
@@ -161,7 +165,7 @@ html {
 .palm_foto {
     position: absolute;
     top: 2384px;
-    left: 0;
+    left: 8px;
     width: 880px;
     height: 460px;
     background-image: url(./storage/pictures/palm_foto.png);
@@ -172,7 +176,7 @@ html {
 .strelitzia_foto {
     position: absolute;
     top: 2570px;
-    right: 24px;
+    right: -504px;
     width: 880px;
     height: 460px;
     background-image: url(./storage/pictures/strelitzia_foto.png);
@@ -183,7 +187,7 @@ html {
 .leaf_foto {
     position: absolute;
     top: 4700px;
-    right: -97px;
+    right: -624px;
     width: 880px;
     height: 460px;
     background-image: url(./storage/pictures/leaf_foto.png);
@@ -191,15 +195,21 @@ html {
     z-index: -1;
 }
 
+.intro__watch-animal__container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1160px;
+}
+
 .watch-animal {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     padding-top: 86px;
     height: 700px;
     color: white;
     left: 0;
+    z-index: 3;
 }
 
 .watch-animal__text {
@@ -209,6 +219,7 @@ html {
     text-align: center;
     height: 400px;
     width: 500px;
+    right: 220px;
     z-index: 1;
 }
 
@@ -252,18 +263,18 @@ html {
     display: flex;
     flex-direction: row;
     margin-top: 180px;
+    width: 1200px;
 }
 
 .wilderness-backstage__content__animals {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
 }
 
 .animals__item {
     width: 366px;
     height: 426px;
-    border: solid 2px #F9804B;
+    border: solid 1px #F9804B;
     border-radius: 5px;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -281,7 +292,6 @@ html {
 }
 
 .pick-a-friend {
-    max-width: 1600px;
     height: 1000px;
     background:linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%);
     opacity: 0.9;
@@ -393,7 +403,7 @@ html {
 .testimonials__item {
     width: 232px;
     height: 355px;
-    border: solid 2px #F9804B;
+    border: solid 1px #F9804B;
     border-radius: 20px;
     background-color: #F1F3F2;
     padding: 16px;
@@ -458,7 +468,6 @@ html {
     background-color: black;
     color: white;
     height: 443px;
-    width: 1600px;
 }
 
 .footer__contents {

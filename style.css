@@ -24,25 +24,32 @@ html {
 }
 
 .button__round {
+    position: absolut;
     height: 54px;
     width: 54px;
     border-radius: 54px;
     border: none;
     background-color:#F9804B;
     color: white;
-    display: none;
 }
 
 .button__centered {
-    margin: 0;
+    position: absolute;
+    left: 720px;
 }
 .button__left {
+    position: absolute;
+    left: 180px;
+    top: 2012px;
     background-image: url("./storage/icons/left_arrow.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .button__right {
+    position: absolute;
+    right: 645px;
+    top: 2012px;
     background-image: url("./storage/icons/right_arrow.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -132,6 +139,50 @@ html {
     background-color: #F9804B;
     border-radius: 50%;
     z-index: 0;
+}
+
+.flower_foto {
+    position: absolute;
+    top: 880px;
+    right: 445px;
+    width: 293px;
+    height: 605px;
+    background-image: url(./storage/pictures/flower_foto.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.palm_foto {
+    position: absolute;
+    top: 2384px;
+    left: 0;
+    width: 880px;
+    height: 460px;
+    background-image: url(./storage/pictures/palm_foto.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.strelitzia_foto {
+    position: absolute;
+    top: 2570px;
+    right: 24px;
+    width: 880px;
+    height: 460px;
+    background-image: url(./storage/pictures/strelitzia_foto.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.leaf_foto {
+    position: absolute;
+    top: 4700px;
+    right: -97px;
+    width: 880px;
+    height: 460px;
+    background-image: url(./storage/pictures/leaf_foto.png);
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .watch-animal {

@@ -58,7 +58,7 @@ html {
     position: absolute;
     left: 180px;
     top: 2012px;
-    background-image: url("/storage/icons/left_arrow.png");
+    background-image: url("https://dimibibikau.github.io/online-zoo/storage/icons/left_arrow.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -67,7 +67,7 @@ html {
     position: absolute;
     right: 110px;
     top: 2012px;
-    background-image: url("/storage/icons/right_arrow.png");
+    background-image: url("https://dimibibikau.github.io/online-zoo/storage/icons/right_arrow.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -174,7 +174,7 @@ html {
 }
 
 .intro {
-    background-image: url('/storage/pictures/Giant_Panda.png');
+    background-image: url('https://dimibibikau.github.io/online-zoo/storage/pictures/Giant_Panda.png');
     background-repeat: no-repeat;
 }
 
@@ -195,7 +195,7 @@ html {
     right: -84px;
     width: 293px;
     height: 605px;
-    background-image: url(/storage/pictures/flower_foto.png);
+    background-image: url(https://dimibibikau.github.io/online-zoo/storage/pictures/flower_foto.png);
     background-repeat: no-repeat;
     z-index: 0;
 }
@@ -206,7 +206,7 @@ html {
     left: 8px;
     width: 880px;
     height: 460px;
-    background-image: url(/storage/pictures/palm_foto.png);
+    background-image: url(https://dimibibikau.github.io/online-zoo/storage/pictures/palm_foto.png);
     background-repeat: no-repeat;
     z-index: 0;
 }
@@ -217,7 +217,7 @@ html {
     right: -504px;
     width: 880px;
     height: 460px;
-    background-image: url(/storage/pictures/strelitzia_foto.png);
+    background-image: url(https://dimibibikau.github.io/online-zoo/storage/pictures/strelitzia_foto.png);
     background-repeat: no-repeat;
     z-index: 0;
 }
@@ -228,7 +228,7 @@ html {
     right: -624px;
     width: 880px;
     height: 460px;
-    background-image: url(/storage/pictures/leaf_foto.png);
+    background-image: url(https://dimibibikau.github.io/online-zoo/storage/pictures/leaf_foto.png);
     background-repeat: no-repeat;
     z-index: -1;
 }

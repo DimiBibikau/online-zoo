@@ -21,3 +21,7 @@ h3 {
     font-size: 24px;
     line-height: 28.8px;
 }
+
+button a:visited {
+    color: inherit;
+}

@@ -164,7 +164,8 @@ html {
     line-height: 120%;
     width: 82px;
     height: 52px;
-    padding-left: 5px;
+    padding: 2px;
+    /* padding-left: 5px; */
     text-align: center;
 }
 

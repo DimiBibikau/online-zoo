@@ -170,9 +170,9 @@ html {
 }
 
 .bamboo-stick__header {
-    position: absolute;
-    left: 235px;
-    top: 42px;
+    position: relative;
+    right: 75px;
+    bottom: -5px;
 }
 
 .bamboo-stick__footer {

@@ -581,3 +581,20 @@ border-image-source: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
 border-image-source: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
 linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
  */
+
+@media (max-width: 1599px) {
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+
+    .footer__contents {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 41px; */
+        max-width: 939px;
+        /* height: 353px; */
+    }
+}

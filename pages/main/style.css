@@ -529,6 +529,10 @@ html {
     height: 353px;
 }
 
+.footer__contents__mobile{
+    display: none;
+}
+
 .side-column {
     display: flex;
     flex-direction: column;

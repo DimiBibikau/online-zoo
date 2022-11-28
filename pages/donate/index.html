@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online zoo - Donate</title>
-    <link rel="stylesheet" href="https://dimibibikau.github.io/online-zoo/pages/donate/style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://dimibibikau.github.io/online-zoo/pages/main/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,9 @@
     <header class="header">
         <div class="wrapper">
             <nav class="header__navigation">
-                <!-- <a href="https://dimibibikau.github.io/online-zoo/" class="online-zoo-logo__link"><img class="online-zoo-logo__link" src="https://dimibibikau.github.io/online-zoo/pages/storage/icons/logo_footer.png" alt="online zoo logo"></a> -->
-                <a href="https://dimibibikau.github.io/online-zoo/pages/main/"><h1 class="online-zoo-logo__link__h1">PetStory<br>online</h1></a>
+                <a href="https://dimibibikau.github.io/online-zoo/pages/main/">
+                    <h1 class="online-zoo-logo__link__h1 online-zoo__logo__mobile">PetStory<br>online</h1>
+                </a>
                 <div class="bamboo-stick__header">
                     <img src="https://dimibibikau.github.io/online-zoo/storage/icons/bamboo.png">
                 </div>
@@ -26,9 +27,11 @@
                     <li class="navigation__item"><a href="">Zoos</a></li>
                     <li class="navigation__item"><a href="https://dimibibikau.github.io/online-zoo/pages/donate/">Donate</a></li>
                     <li class="navigation__item"><a href="">Contact us</a></li>
-                    <li class="petstory"><h1>PetStory Online</h1></li>
                 </ul>
-                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+                <a class="author__header" href="https://https://www..figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+                <div class="navigation__burger">
+                    <img src="/storage/icons/burger_menu.png">
+                </div>
             </nav>
         </div>
     </header>
@@ -49,20 +52,20 @@
                         <div class="donation-scheme-feeding__formula">
                             <div class="donation-scheme-feeding__formula_left-side">
                                 <p class="donation-number">4</p>
-                                <p>Panda diet for the day.</p>
+                                <p class="donation-text">Panda diet for the day.</p>
                             </div>
                             <div class="donation-scheme-feeding__formula_right-side">
                                 <img src="https://dimibibikau.github.io/online-zoo/storage/icons/donation_cross.png" alt="Cross">
-                                <img src="https://dimibibikau.github.io/online-zoo/storage/pictures/donation_panda.png" alt="Panda">
+                                <img class="donation__panda__img" src="https://dimibibikau.github.io/online-zoo/storage/pictures/donation_panda.png" alt="Panda">
                             </div>
                         </div>
                         <div class="donation-scheme-feeding__progress-bar">
                             <p class="amount">Amount</p>
-                            <img src="https://dimibibikau.github.io/online-zoo/storage/pictures/progress_bar.png" alt="Progress bar">
+                            <img class="progress-bar__img" src="https://dimibibikau.github.io/online-zoo/storage/pictures/progress_bar.png" alt="Progress bar">
                             <div class="progress-bar__numbers">
-                                <p>$5000</p>
-                                <p>$2000</p>
-                                <p class="active">$1000</p>
+                                <p class="not-desktop__number">$5000</p>
+                                <p class="not-tablet__number">$2000</p>
+                                <p class="active not-mobile__number">$1000</p>
                                 <p>$500</p>
                                 <p>$250</p>
                                 <p>$100</p>
@@ -71,7 +74,7 @@
                             </div>
                         </div>
                         <div class="donation-scheme-feeding__payment">
-                            <form action="donate" method="post">
+                            <form class="donation-scheme-feeding__payment" action="donate" method="post">
                                 <input class="donate__input" type="text" id="sum" name="sum" value="Another amount $">
                                 <ul class="donate__schedule-buttons">
                                     <li>
@@ -99,29 +102,25 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="footer__contents">
-                <div class="side-column">
-                    <!-- <a href="https://dimibibikau.github.io/online-zoo/" class="online-zoo-logo__link"><img class="online-zoo-logo__link" src="https://dimibibikau.github.io/online-zoo/pages/storage/icons/logo_footer.png" alt="online zoo logo"></a> -->
-                    <a href="https://dimibibikau.github.io/online-zoo/pages/main/"><h1 class="online-zoo-logo__link__h1">PetStory<br>online</h1></a>
-                    <!-- <div class="bamboo-stick__footer">
-                        <img src="https://dimibibikau.github.io/online-zoo/pages/storage/icons/bamboo.png">
-                    </div> -->
+                <div class="side-column left-column">
+                    <a href="https://dimibibikau.github.io/online-zoo/pages/main/"><h1 class="online-zoo-logo__link__h1">PetStory<br>online</h1><h1 class="mobile__logo_smallest">PetStory online</h1></a>
                     <button class="button button__rectangular button__donate"><a href="https://dimibibikau.github.io/online-zoo/pages/donate/">DONATE FOR VOLUNTEERS</a></button>
                     <div class="socials">
                         <div class="socials__company">
                             <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/fb.png" alt="FB logo">
-                            <p>Facebook</p>
+                            <a class="socials__company__name" href="https://www..facebook.com">Facebook</a>
                         </div>
                         <div class="socials__company">
                             <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/twitter.png" alt="TW logo">
-                            <p>Twitter</p>
+                            <a class="socials__company__name" href="https://www..twitter.com">Twitter</a>
                         </div>
                         <div class="socials__company">
                             <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/insta.png" alt="INST logo">
-                            <p>Instagram</p>
+                            <a class="socials__company__name" href="https://www.w.instagram.com">Instagram</a>
                         </div>
                         <div class="socials__company">
                             <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/youtube.png" alt="YT logo">
-                            <p>YouTube</p>
+                            <a class="socials__company__name" href="https://www..youtube.com">Youtube</a>
                         </div>
                     </div>
                 </div>
@@ -135,7 +134,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="side-column">
+                <div class="side-column right-column">
                     <div class="subscription-form">
                         <h3 class="input__heading">Subscribe to our news</h3>
                         <div class="subscription">
@@ -148,6 +147,40 @@
                         <p class="author__line">©RSSchool & ©Yem Digital 2021</p>
                     </div>
                 </div>
+            </div>
+            <div class="footer__contents__mobile">
+                <h1 class="mobile__logo_smallest">PetStory online</h1>
+                <div class="socials__mobile">
+                    <div class="socials__company">
+                        <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/fb.png" alt="FB logo">
+                        <!-- <a class="socials__company__name" href="https://www..facebook.com">Facebook</a> -->
+                    </div>
+                    <div class="socials__company">
+                        <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/twitter.png" alt="TW logo">
+                        <!-- <a class="socials__company__name" href="https://www..twitter.com">Twitter</a> -->
+                    </div>
+                    <div class="socials__company">
+                        <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/insta.png" alt="INST logo">
+                        <!-- <a class="socials__company__name" href="https://www.w.instagram.com">Instagram</a> -->
+                    </div>
+                    <div class="socials__company">
+                        <img class="socials__company__logo" src="https://dimibibikau.github.io/online-zoo/storage/icons/youtube.png" alt="YT logo">
+                        <!-- <a class="socials__company__name" href="https://www..youtube.com">Youtube</a> -->
+                    </div>
+                </div>
+                <button class="button__mobile"><a href="https://dimibibikau.github.io/online-zoo/pages/donate/">DONATE FOR VOLUNTEERS</a></button>
+                <div class="author__mobile">
+                    <p class="author__line">Designed by Alisa Samborskaya</p>
+                    <p class="author__line">©RSSchool & ©Yem Digital 2021</p>
+                </div>
+                <nav>
+                    <ul class="footer__navigation__mobile">
+                        <li class="navigation__item">About</li>
+                        <li class="navigation__item"><a href="">Map</a></li>
+                        <li class="navigation__item"><a href="">Zoos</a></li>
+                        <li class="navigation__item"><a href="">Contact us</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </footer>

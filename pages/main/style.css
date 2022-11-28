@@ -415,6 +415,12 @@ html {
     margin-right: 30px;
 }
 
+.green-arrow__left, .green-arrow__right{
+    display: none;
+}
+
+/* TESTIMONIALS */
+
 .testimonials {
     height: 906px;
 }
@@ -505,6 +511,8 @@ html {
     background-color: #F9804B;
     color: #F9804B;
 }
+
+/* FOOTER */
 
 .footer {
     background-color: black;
@@ -608,7 +616,7 @@ html {
     /* WATCH ANIMAL */
 
     .intro {
-        background-size: contain;
+        background-size:cover;
         height: 504px;
     }
 
@@ -617,7 +625,7 @@ html {
     }
 
     .watch-animal {
-        height: 400px;
+        height: 450px;
         padding-top: 40px;
     }
 
@@ -631,7 +639,7 @@ html {
     .orange_circle{
         width: 367px;
         height: 367px;
-        left: calc(50% - 367px/2 + 139.5px);
+        left: calc(50% - 50px);
         top: 69px;
         z-index: 0;
     }
@@ -823,6 +831,326 @@ html {
 }
 
 @media (max-width: 999px) {
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .author__header{
+        display: none;
+    }
+
+    .header__navigation {
+        height: 40px;
+    }
+
+    .bamboo-stick__header {
+        position: relative;
+        right: 65px;
+        bottom: -5px;
+    }
+
+    .online-zoo__logo__mobile {
+        border: none;
+        font-size: 12px;
+        height: 20px;
+        padding: 0 0;
+    }
+
+    .header .navigation__item{
+        display: none;
+    }
+
+    .navigation__burger {
+        display: block;
+    }
+
+    .author__header {
+        display: none;
+    }
+
+    /* WATCH ANIMAL */
+
+    .intro {
+        height: 339px;
+        margin: 0 auto;
+    }
+
+    .intro__watch-animal__container{
+        max-width: 600px;
+    }
+
+    .orange_circle{
+        width: 237px;
+        height: 237px;
+        left: calc(50% - 237px/2 + 130px);
+        top: 44px;
+    }
+
+    .watch-animal{
+        /* height: 240px; */
+    }
+
+    .watch-animal__text{
+        font-size: 54px;
+        height: 204px;
+        width: 256px;
+        left: calc(50% - 150px);
+        top: 82px;
+    }
+
+    .button__watch {
+        position: absolute;
+        left: calc(50% - 298px/2 - 140px);
+        top: 200px;
+    }
+
+    /* WATCH BACKSTAGE */
+
+    .wilderness-backstage{
+        height: 1400px;
+    }
+
+    .wilderness_backstage__content__envelope{
+        width: 700px;
+        margin-top: 80px;
+    }
+
+    .wilderness-backstage__content{
+        margin-top: 60px;
+    }
+
+    .wilderness_backstage__content__header {
+        display: flex;
+        margin-top: 0;
+    }
+
+    .wilderness-backstage__content__header__text{
+        margin-left: 0;
+    }
+
+    .intro__heading{
+        margin-bottom: 20px;
+    }
+
+    .intro__subheading{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .old-man-photo{
+        display: none;
+    }
+
+    .flower_foto{
+        display: block;
+        scale: 75%;
+        top: 310px;
+        right: -95px;
+    }
+
+    .mobile-invisible{
+        display: none;
+    }
+
+    .animals__item{
+        height: 332px;
+        width: 285px;
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
+
+    .animals__item_pic{
+        height: 285px;
+        width: 285px;
+    }
+
+    .logo__carninvore-herbivore {
+        width: 25px;
+        height: 25px;
+    }
+
+    .button__right{
+        top: 1215px;
+        left: 350px;
+    }
+
+    .button__left{
+        top: 1215px;
+        left: 245px;
+    }
+
+    .button__centered{
+        margin-top: -30px;
+        margin-bottom: 100px;
+    }
+
+    .palm_foto{
+        top: 1502px;
+    }
+
+    .strelitzia_foto{
+        top: 1595px;
+    }
+
+    /* DONATION SCHEME */
+
+    .donation-scheme__point{
+        height: 244px;
+        width: 168px;
+        margin-right: 21px;
+        margin-left: 21px;
+    }
+
+    .donation-scheme__point_logo-box{
+        width: 168px;
+        height: 168px;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .green-arrow__left{
+        display: block;
+        position: absolute;
+        left: 165px;
+    }
+
+    .green-arrow__right{
+        display: block;
+        position: absolute;
+        left: 375px;
+    }
+
+    .button__rounded{
+        margin-top: 40px;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials{
+        height: 680px;
+    }
+
+    .testimonials__content{
+        max-width: 600px;
+        margin-top: 0;
+    }
+
+    .testimonials__heading{
+        margin-top: 60px;
+    }
+
+    .testimonials__content_deck{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .testimonials__item{
+        height: 110px;
+        width: 570px;
+        overflow: hidden;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .button__rectangular{
+        margin-top: 15px;
+        align-self: center;
+        margin-left: calc(50% - 127px);
+    }
+
+    .leaf_foto{
+        top: 3220px;
+    }
+
+    /* FOOTER */
+
+    .bamboo-stick__footer {
+        position: absolute;
+        left: 235px;
+        bottom: 350px;
+    }
+
+    .footer {
+        height: 282px;
+    }
+
+    .footer__contents {
+        max-width: 600px;
+        height: 238px;
+        padding-top: 12px;
+    }
+
+    .side-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mobile__logo_smallest {
+        display: none;
+    }
+
+    .right-column {
+        position: relative;
+        left: 155px;
+        min-width: 398px;
+    }
+
+    .button__donate {
+        position: absolute;
+        left: calc((100% - 600px)/2);
+        margin-top: 82px;
+    }
+
+    .center-column {
+        min-width: 40px;
+    }
+
+    .navigation__item {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .footer__navigation {
+        position: absolute;
+        left: calc((100% - 600px)/2);
+    }
+
+    .socials {
+        position: absolute;
+        right: calc((100% - 630px)/2);
+    }
+
+    .socials__company {
+        display: flex;
+        align-items: center;
+    }
+
+    .socials__company__logo {
+        padding-right: 12px;
+        padding-bottom: 10px;
+    }
+
+    .socials__company__name {
+        display: none;
+    }
+
+    .subscription-form {
+        display: none;
+    }
+
+    .author {
+        position: absolute;
+        right: calc(50% + 50px);
+        bottom: -20px;
+        min-width: 280px;
+        text-align: right;
+        font-size: 16px;
+    }
+
 
 }
 

@@ -1155,5 +1155,214 @@ html {
 }
 
 @media (max-width: 639px) {
+    .wrapper{
+        width: 320px;
+    }
+
+    .tiny-mobile-invisivle {
+        display: none;
+    }
+
+    .intro{
+        height: 187px;
+    }
+
+    .orange_circle{
+        height: 119px;
+        width: 119px;
+    }
+
+    .watch-animal{
+        position: absolute;
+        top: 35px;
+        height: 200px;
+        left: calc(50% + 20px);
+    }
+
+    .watch-animal__text{
+        font-size: 28px;
+        width: 100px;
+        text-align: center;
+        top: 42px;
+    }
+
+    .button__watch{
+        position: absolute;
+        left: calc(50% - 200px);
+        top: 210px;
+    }
+
+    .wilderness-backstage{
+        height: 2045px;
+    }
+
+    .intro__heading{
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 104px;
+    }
+    .intro__subheading{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .wilderness_backstage__content__envelope{
+        width: 300px;
+    }
+
+    .animals__item{
+        margin-bottom: 20px;
+    }
+
+    .donation-scheme{
+        flex-direction: column;
+    }
+    .button__left, .button__right {
+        display: none;
+    }
+    /* PICK A FRIEND  */
+
+    .pick-a-friend{
+        height: 1082px;
+    }
+
+    .pick-a-friend__heading{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .pick-a-friend__tagline{
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .pick-a-friend__card{
+        height: 1042px;
+    }
+
+    .pick-a-friend__card__contents{
+        height: 1042px;
+    }
+
+    .pick-a-friend__card__contents__description{
+        padding: 10px;
+    }
+
+    .pick-a-friend__subtagline, .pick-a-friend__text {
+        display: none;
+    }
+
+    .pick-a-friend__subheadline{
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .donation-scheme{
+        margin-top: 20px;
+    }
+
+    .donation-scheme__point{
+        height: 218px;
+        width: 166px;
+    }
+
+    .donation-scheme__point_logo-box{
+        margin-bottom: 10px;
+        width: 166px;
+        height: 166px;
+    }
+
+    .button__rounded{
+        margin-top: 30px;
+    }
+
+    .green-arrow__left{
+        display: block;
+        position: absolute;
+        left: 260px;
+        top: 2750px;
+        rotate: 90deg;
+    }
+
+    .green-arrow__right{
+        display: block;
+        position: absolute;
+        top: 2960px;
+        left: 260px;
+        rotate: 90deg;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials__content{
+        width: 300px;
+    }
+
+    .testimonials__item{
+        width: 266px;
+        height: 80px;
+    }
+    /* FOOTER */
+    .footer {
+        height: 334px
+    }
+
+    .footer__contents{
+        display: none;
+    }
+
+    .footer__contents__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 340px;
+        width: 300px;
+    }
+
+    .mobile__logo_smallest{
+        display: block;
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+    .socials__mobile{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .button__mobile {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        height: 54px;
+        width: 298px;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+
+    .author__mobile{
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 120%;
+        color: white;
+        text-align: right;
+        align-items: baseline;
+        margin-top: 30px;
+    }
+
+    .footer__navigation__mobile{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .navigation__item{
+        padding-right: 20px;
+    }
 
 }

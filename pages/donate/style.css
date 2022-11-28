@@ -931,58 +931,64 @@ a:visited {
     }
 
     /* footer */
-
-    .left-column {
-        display: flex;
-        flex-direction: column;
+    .footer {
+        height: 334px;
     }
 
-    .right-column {
-        left: -190px;
-        max-width: 0;
-    }
-
-    .online-zoo-logo__link__h1 {
+    .footer__contents{
         display: none;
     }
 
-    .online-zoo__logo__mobile {
-        display: block;
-        border: none;
-    }
-
-    .mobile__logo_smallest {
-        display: block;
-        border: none;
-        min-width: 300px;
-        text-align: center;
-        font-size: 23px;
-        height: 20px;
-        padding: 0 0;
-    }
-
-    .socials {
+    .footer__contents__mobile {
         display: flex;
-        right: calc(50% - 70px);
-        bottom: -760px;
+        flex-direction: column;
+        align-items: center;
+        height: 340px;
+        width: 300px;
     }
 
-    .button__donate {
-        left: calc(50% - 149px);
+    .mobile__logo_smallest{
+        display: block;
+        font-size: 19px;
+        margin-top: 20px;
     }
 
-    .author {
-        position: absolute;
-        bottom: 20px;
-        height: 100px;
-        left: calc(50% - 580px);
+    .socials__mobile{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
     }
 
-    .footer__navigation {
-        left: calc(50% - 159px);
+    .button__mobile {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        height: 54px;
+        width: 298px;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 30px;
     }
 
-    .navigation__item {
-        padding: 1px 15px;
+    .author__mobile{
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 120%;
+        color: white;
+        text-align: right;
+        align-items: baseline;
+        margin-top: 30px;
+    }
+
+    .footer__navigation__mobile{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .navigation__item{
+        padding-right: 20px;
     }
 }

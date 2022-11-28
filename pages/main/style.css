@@ -579,7 +579,6 @@ html {
 @media (max-width: 1599px) {
     .wrapper {
         width: 960px;
-        margin: 0 auto;
     }
 
     /* HEADER */
@@ -618,7 +617,7 @@ html {
     }
 
     .watch-animal {
-        height: 500px;
+        height: 400px;
         padding-top: 40px;
     }
 
@@ -639,6 +638,134 @@ html {
 
     .button__watch {
         margin-top: 40px;
+    }
+
+    /* BACKSTAGE WILDERNESS */
+    .flower_foto{
+        display: none;
+    }
+
+    .wilderness-backstage{
+        height: 1744px;
+    }
+
+    .wilderness_backstage__content__envelope{
+        margin-top: 142px;
+    }
+
+    .wilderness-backstage__content{
+        margin-top: 100px;
+    }
+
+    .wilderness-backstage__content__header {
+        max-height: 408px;
+    }
+
+    .old-man-photo {
+        height: 408px;
+        width: 455px;
+    }
+
+    .intro__heading{
+        font-size: 48px;
+    }
+
+    .wilderness-backstage__content__header__text{
+        margin-left: 31px;
+    }
+
+    .animals__item{
+        width: 294px;
+        height: 354px;
+        margin-left: 0;
+        margin-right: 29px;
+        margin-bottom: 92px;
+    }
+
+    .animals__item_pic{
+        width: 294px;
+        height: 294px;
+    }
+
+    .tablet-invisible {
+        display: none;
+    }
+
+    .button__left, .button__right {
+        top: 1616px;
+    }
+
+    .button__centered{
+        left: calc(50% - 127px);
+        margin-top: 0;
+    }
+
+    .palm_foto{
+        scale: 50%;
+        left: -212px;
+        top: 2091px;
+    }
+
+    .strelitzia_foto{
+        scale: 50%;
+        top: 2184px;
+        left: calc(100% - 412px);
+
+    }
+
+    /* PICK A FRIEND */
+    .pick-a-friend{
+        padding-top: 30px;
+        top: 2300px;
+        height: 846px;
+    }
+
+    .pick-a-friend__card{
+        height: 796px;
+    }
+
+    .pick-a-friend__tagline, .pick-a-friend__subtagline{
+        margin-top: 20px;
+    }
+
+    .pick-a-friend__subheadline{
+        margin-top: 40px;
+    }
+
+    .button__rounded{
+        margin-top: 70px;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials{
+        height: 842px;
+    }
+
+    .testimonials__heading{
+        margin-top: 100px;
+    }
+
+    .testimonials__content{
+        /* max-width: 940px; */
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testimonials__content_deck{
+        justify-content: space-between;
+    }
+
+    .testimonials__item{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .leaf_foto{
+        scale: 50%;
+        top: 4000px;
+        left: calc(100% - 352px);
     }
 
     /* footer */

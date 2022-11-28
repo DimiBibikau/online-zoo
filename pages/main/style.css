@@ -6,6 +6,14 @@ html {
     color: #333B41;
 }
 
+a:link{
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 .petstory {
     color: black;
 }

@@ -15,6 +15,10 @@ a:visited {
     color: white;
 }
 
+a:link{
+    color: white;
+}
+
 /* .button__round {
     position: absolute;
     height: 54px;

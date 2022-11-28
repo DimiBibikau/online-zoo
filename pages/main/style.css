@@ -1306,6 +1306,21 @@ html {
         rotate: 90deg;
     }
 
+    .palm_foto{
+        top: 2052px;
+        scale: 25%;
+        left: -322px;
+    }
+
+    .strelitzia_foto{
+        top: 2090px;
+        scale: 25%;
+    }
+
+    .flower_foto{
+        display: none;
+    }
+
     /* TESTIMONIALS */
 
     .testimonials__content{
@@ -1315,6 +1330,10 @@ html {
     .testimonials__item{
         width: 266px;
         height: 80px;
+    }
+
+    .leaf_foto{
+        top: 3940px;
     }
     /* FOOTER */
     .footer {

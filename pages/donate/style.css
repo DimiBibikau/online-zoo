@@ -594,12 +594,6 @@ a:visited {
         bottom: 350px;
     }
 
-    .footer {
-        background-color: black;
-        color: white;
-        height: 443px;
-    }
-
     .footer__contents {
         max-width: 939px;
     }
@@ -628,38 +622,11 @@ a:visited {
         min-width: 400px;
     }
 
-    /* .footer__navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: auto;
-    } */
-
-    /* .socials__company {
-        display: flex;
-        align-items: center;
-    } */
-
-    /* .socials__company__logo {
-        padding-right: 12px;
-        padding-bottom: 10px;
-    } */
-
     .subscription-form {
         position: absolute;
         left: -156px;
         min-width: 550px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        color: white; */
     }
-
-    /* .input__heading {
-        line-height: 120%;
-        margin-bottom: 14px;
-    } */
 
     .author {
         position: absolute;
@@ -672,9 +639,6 @@ a:visited {
         align-items: flex-end;
         justify-content: flex-end;
     }
-
-    /* .author__line {
-    } */
 }
 
 @media (max-width: 999px) {
@@ -759,7 +723,6 @@ a:visited {
 
     .donation-scheme-feeding__progress-bar {
         font-weight: 500;
-        /* background-image: url("/storage/pictures/progress_bar_smallish.png"); */
         background-repeat: no-repeat;
         max-width: 600px;
         opacity: 100%;

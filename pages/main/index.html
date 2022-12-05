@@ -10,9 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="script-main.js" defer></script>
 </head>
 <body>
     <header class="header">
+        <div class="dimmer"></div>
             <div class="wrapper">
                 <nav class="header__navigation">
                     <a href="https://dimibibikau.github.io/online-zoo/pages/main/">
@@ -31,6 +33,22 @@
                     <a class="author__header" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
                     <div class="navigation__burger">
                         <img src="https://dimibibikau.github.io/online-zoo/storage/icons/burger_menu.png">
+                    </div>
+                    <div class="burger__menu">
+                        <div class="button__close-round__box">
+                            <button class="button__close-round">✗</button>
+                        </div>
+                        <a href="https://dimibibikau.github.io/online-zoo/pages/main/">
+                            <h1 class="burger__menu__logo">PetStory<br>online</h1>
+                        </a>
+                        <ul class="navigation__burger__list">
+                            <li class="navigation__item__burger">About</li>
+                            <li class="navigation__item__burger"><a href="">Map</a></li>
+                            <li class="navigation__item__burger"><a href="">Zoos</a></li>
+                            <li class="navigation__item__burger"><a href="https://dimibibikau.github.io/online-zoo/pages/donate/">Donate</a></li>
+                            <li class="navigation__item__burger"><a href="">Contact us</a></li>
+                        </ul>
+                        <a class="author__burger__menu" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
                     </div>
                 </nav>
             </div>
@@ -178,87 +196,11 @@
                 <div class="testimonials__content">
                     <h2 class="testimonials__heading">Testimonials</h2>
                     <div class="testimonials__content_deck">
-                        <div class="testimonials__item__border">
-                            <div class="testimonials__item">
-                                <div class="testimonials__item__header">
-                                    <img class="avatar"  src="https://dimibibikau.github.io/online-zoo/storage/icons/michael.png" alt="Michael John avatar">
-                                    <div class="testimonials__item__header__text">
-                                        <div class="testimonials__item__header__intro">
-                                            <p>Michael John</p>
-                                            <div class="testimonials__item__header__intro__coordinates">
-                                                <p>Local Austria · Today</p>
-                                                <!-- <img class="dot" src="https://dimibibikau.github.io/online-zoo/storage/icons/dot.png" alt="dot">
-                                                <p>Today</p> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.</p>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love</p>
-                            </div>
-                        </div>
-                        <div class="testimonials__item__border">
-                            <div class="testimonials__item">
-                                <div class="testimonials__item__header">
-                                    <img class="avatar" src="https://dimibibikau.github.io/online-zoo/storage/pictures/oskar_avatar.png" alt="Oskar Samborsky avatar">
-                                    <div class="testimonials__item__header__text">
-                                        <div class="testimonials__item__header__intro">
-                                            <p>Oskar Samborsky</p>
-                                            <div class="testimonials__item__header__intro__coordinates">
-                                                <p>Local Austria · Yesterday</p>
-                                                <!-- <img class="dot" src="https://dimibibikau.github.io/online-zoo/storage/icons/dot.png" alt="dot">
-                                                <p>Yesterday</p> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.</p>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love</p>
-                            </div>
-                        </div>
-                        <div class="testimonials__item__border">
-                            <div class="testimonials__item">
-                                <div class="testimonials__item__header">
-                                    <img class="avatar" src="https://dimibibikau.github.io/online-zoo/storage/pictures/federicka_avatar.png" alt="Fredericka Michelin avatar">
-                                    <div class="testimonials__item__header__text">
-                                        <div class="testimonials__item__header__intro">
-                                            <p>Fredericka Michelin</p>
-                                            <div class="testimonials__item__header__intro__coordinates">
-                                                <p>Local Austria · Yesterday</p>
-                                                <!-- <img class="dot" src="https://dimibibikau.github.io/online-zoo/storage/icons/dot.png" alt="dot">
-                                                <p>Yesterday</p> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.</p>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love</p>
-                            </div>
-                        </div>
-                        <div class="testimonials__item_border">
-                            <div class="testimonials__item tablet-invisible">
-                                <div class="testimonials__item__header">
-                                    <img class="avatar" src="https://dimibibikau.github.io/online-zoo/storage/pictures/mila_avatar.png" alt="Mila Riksha avatar">
-                                    <div class="testimonials__item__header__text">
-                                        <div class="testimonials__item__header__intro">
-                                            <p>Mila Riksha</p>
-                                            <div class="testimonials__item__header__intro__coordinates">
-                                                <p>Local Austria · Yesterday</p>
-                                                <!-- <img class="dot" src="https://dimibibikau.github.io/online-zoo/storage/icons/dot.png" alt="dot">
-                                                <p>Yesterday</p> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.</p>
-                                <p class="testimonial__text">The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much loves to watch gorillas. Online zoo is one of the ways to instill a love</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="slider__box  mobile-invisible">
                         <div class="slider"></div>
                     </div>
-                    <button class="button button__rectangular">LEAVE FEEDBACK</button>
+                    <button class="button button__rectangular button__testimonials">LEAVE FEEDBACK</button>
                 </div>
             </div>
         </section>
@@ -266,6 +208,9 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="footer__contents">
+                <div>
+                    <img class="bamboo-stick__footer" src="https://dimibibikau.github.io/online-zoo/storage/icons/bamboo.png">
+                </div>
                 <div class="side-column left-column">
                     <a href="https://dimibibikau.github.io/online-zoo/pages/main/"><h1 class="online-zoo-logo__link__h1">PetStory<br>online</h1><h1 class="mobile__logo_smallest">PetStory online</h1></a>
                     <button class="button button__rectangular button__donate"><a href="https://dimibibikau.github.io/online-zoo/pages/donate/">DONATE FOR VOLUNTEERS</a></button>

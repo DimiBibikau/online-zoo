@@ -404,7 +404,13 @@ a:visited {
 
 .text__underlined {
     border-bottom: 2px solid #F9804B;
+    color: black!important;
 }
+
+.text__underlined:link {
+    color: black;
+}
+
 .donation-scheme {
     display: flex;
     flex-direction: row;
@@ -470,6 +476,18 @@ a:visited {
 }
 
 .testimonials__item {
+    width: 232px;
+    height: 355px;
+    border: solid 1px #F9804B;
+    border-radius: 20px;
+    background-color: #F1F3F2;
+    padding: 16px;
+    margin-right: 30px;
+    margin-bottom: 21px;
+    overflow: hidden;
+}
+
+.testimonials__item.active {
     width: 232px;
     height: 355px;
     border: solid 1px #F9804B;

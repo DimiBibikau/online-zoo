@@ -114,10 +114,22 @@ const renderOnlineZoo = () => {
     // ACTIONS ON SLIDER
     const sliderEcho = document.querySelector('input[type="range"');
     const testimonialsList = document.querySelectorAll('.testimonials__item');
+    console.log(testimonialsList.entries())
+
     const sliderValue = () => {
-        const newSliderValue = sliderEcho.value;
+        const seeked = sliderEcho.value;
+        return seeked;
     }
     sliderEcho.addEventListener('input', sliderValue);
+
+    // testimonialsList.classList.add('active');
+    // testimonialsList.classList.add('active');
+
+    // for (let testimonial of testimonialsList.entries()) {
+    //     testimonialsList.classList.add('active');
+    //     testimonialsList.classList.add('active');
+    //     testimonialsList.classList.add('active');
+    // }
 }
 
 renderOnlineZoo()

@@ -47,6 +47,7 @@ const renderOnlineZoo = () => {
         elementFactory('p', 'testimonial-text', '.testimonials__item', testimonial);
         elementFactory('p', 'testimonial-text', '.testimonials__item', testimonial);
         // POPULATE TESTIMONIALS
+        document.querySelectorAll('.testimonials__item')[testimonial].id = [testimonial];
         document.querySelectorAll('.avatar')[testimonial].src = data[testimonial].imageLink;
         document.querySelectorAll('.avatar')[testimonial].alt = data[testimonial].name;
         document.querySelectorAll('.name')[testimonial].innerHTML = data[testimonial].name;
@@ -66,6 +67,7 @@ const renderOnlineZoo = () => {
         elementFactory('p', 'pop-up__text', '.testimonials__pop-up', testimonial);
         elementFactory('p', 'pop-up__text', '.testimonials__pop-up', testimonial);
         // POPULATE POP-UPS
+        document.querySelectorAll('.testimonials__pop-up')[testimonial].id = [testimonial];
         document.querySelectorAll('.button-close__pop-up')[testimonial].innerHTML = '✗';
         document.querySelectorAll('.pop-up__avatar')[testimonial].src = data[testimonial].imageLink;
         document.querySelectorAll('.pop-up__avatar')[testimonial].alt = data[testimonial].name;
@@ -78,7 +80,7 @@ const renderOnlineZoo = () => {
 
         for(let [index, testimonial] of testimonialItems.entries()) {
             testimonial.addEventListener('click', () => {
-                if(window.innerWidth < 1000) {
+                if(window.innerWidth < 1200) {
                     document.querySelectorAll('.testimonials__pop-up')[index].classList.add('active');
                 dimmerDiv.classList.add('active');
                 document.querySelector('body').style.overflow = 'hidden';
@@ -99,7 +101,7 @@ const renderOnlineZoo = () => {
             })
         }
     }
-
+    // FETCHING TESTIMONIALS
     fetch('./testimonials.json')
         .then(response => {
             return response.json();
@@ -109,7 +111,13 @@ const renderOnlineZoo = () => {
                 testimonialFactory(testimonial, data, '.testimonials__content_deck');
             }
         })
-
+    // ACTIONS ON SLIDER
+    const sliderEcho = document.querySelector('input[type="range"');
+    const testimonialsList = document.querySelectorAll('.testimonials__item');
+    const sliderValue = () => {
+        const newSliderValue = sliderEcho.value;
+    }
+    sliderEcho.addEventListener('input', sliderValue);
 }
 
 renderOnlineZoo()
